@@ -1,17 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import HeroSection from "./components/HeroSection";
+import Navbar from "./components/Navbar";
 
-function App() {
+const App = () => {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <>
+      <Navbar/>
+      <HeroSection/>
+      <h1 className="text-lg">Titre</h1>
+<p className="text-xl">Paragraphe</p>
+<span className="text-2xl">Texte</span>
+      </>
+
+     
+
     </>
   )
 }
 
-export default App
+export default App;
