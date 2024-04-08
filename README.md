@@ -1,4 +1,4 @@
-# Projet de Formation ATA
+# Projet de Formation ATA (Automation Tester Academy)
 
 Ce projet contient le code source pour le site web de la Formation ATA, développé avec React.js.
 
